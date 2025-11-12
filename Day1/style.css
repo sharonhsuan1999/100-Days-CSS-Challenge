@@ -1,0 +1,79 @@
+.frame{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(45deg, #43389F, #4ec6ca);
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+  font-family: 'Courier New', 'Courier', sans-serif;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.number{
+  position: relative;
+  width: 200px;
+  height: 150px;
+  top: 50px;
+}
+.one1{
+  position: absolute;
+  background: #ffffff;
+  width: 20px;
+  height: 40px;
+  border-radius: 4px;
+  transform: rotate(50deg);
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.2);
+}
+.one2{
+  position: absolute;
+  z-index: 10;
+  background: #ffffff;
+  width: 25px;
+  height: 100px;
+  border-radius: 4px;
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.2);
+  left: 15px;
+}
+.zero1{
+  position: absolute;
+  z-index: 8;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 24px solid #ffffff;
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.2);
+  left: 30px;
+}
+.zero2{
+  position: absolute;
+  z-index: 6;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 24px solid #ffffff;
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.2);
+  left: 110px;
+}
+.big{
+  position: relative;
+  color: #ffffff;
+  font-size: 84px;
+  font-weight: bold;
+  left: 10px;
+  bottom: 10px;
+}
+.small{
+  position: relative;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  left: 10px;
+  bottom: 30px;
+}
